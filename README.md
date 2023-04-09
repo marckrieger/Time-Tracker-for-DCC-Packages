@@ -32,6 +32,6 @@ Integrations for more DCCs are planned.
   python.ExecuteFile @"C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\3dsmaxlog.py"
   ```
 
-- Houdini: copy the ```456.py``` file inside the houdini folder to the path: ```C:\Users\user\Documents\houdini-version\scripts\```
+- Houdini: copy the ```456.py``` file inside the houdini folder to the path: ```C:\Users\user\Documents\houdini-version\scripts\```. If the ```scripts``` folder does not exist, create it.
 
 </details>
