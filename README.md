@@ -27,7 +27,7 @@ Integrations for more DCCs are planned.
 
 - Maya: Make sure PyMEL is already installed or install it beforehand. Copy the ```userSetup.py``` file inside the maya folder to the path ```C:\Users\user\Documents\maya\scripts\```. If the file already existed, just add the lines.
 
-- 3dsMax: Copy the ```3dsmaxlog.py``` and ```startup.ms``` files inside the 3dsmax folder to the path ```C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\```. Edit the ```user``` and ```3dsmax-version``` parts in the ```startup.ms``` file to match your username and 3dsMax version (example: 2024 - 64bit).
+- 3dsMax: Copy the ```3dsmaxlog.py``` and ```startup.ms``` files inside the 3dsmax folder to the path ```C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\```. Edit the ```user``` and ```3dsmax-version``` parts in the ```startup.ms``` file to match your username and 3dsMax version (example: 2024 - 64bit). Also, if your 3dsMax language used is not English, replace the ```ENU``` part with your language package.
 
 - Houdini: Copy the ```456.py``` file inside the houdini folder to the path: ```C:\Users\user\Documents\houdini-version\scripts\```. If the ```scripts``` folder does not exist, create it.
 
