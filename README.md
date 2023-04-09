@@ -19,20 +19,15 @@ Integrations for more DCCs are planned.
 <details><summary>For Windows users:</summary>
 </br>
 
-(Tested with Maya 2023, Nuke 13.1 and 14.0, 3dsMax 2023 and Houdini 19.5)
+(Tested with Maya 2023, Nuke 13.1 and 14.0, 3dsMax 2023 and 2024 and Houdini 19.5)
 
 **Replace ```user``` with your username, ```maya-version``` with your Maya version, ```3dsmax-version``` with your 3dsMax version and ```houdini-version``` with your Houdini version.**
 
 - Nuke: Copy the ```menu.py``` and ```nukelog.py``` files in the nuke folder to the path ```C:\Users\user\.nuke\```. If the file ```menu.py``` already existed before, only add the content of the new menu.py to the existing file.
 
-- Maya: Make sure PyMEL is already installed or install it beforehand. Copy the ```userSetup.py``` file inside the maya folder to the path ```C:\Users\user\Documents\maya\maya-version\scripts\```. If the file already existed, just add the lines.
+- Maya: Make sure PyMEL is already installed or install it beforehand. Copy the ```userSetup.py``` file inside the maya folder to the path ```C:\Users\user\Documents\maya\scripts\```. If the file already existed, just add the lines.
 
-- 3dsMax: Copy the ```3dsmaxlog.py``` file inside the 3dsmax folder to the path ```C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\```. If it did not exist before, create a file in the same directory with the filename ```startup``` and the extension ```.ms```. Then copy the following lines to this file:
-
-  ```
-  showinterface python
-  python.ExecuteFile @"C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\3dsmaxlog.py"
-  ```
+- 3dsMax: Copy the ```3dsmaxlog.py``` and ```startup.ms``` files inside the 3dsmax folder to the path ```C:\Users\user\AppData\Local\Autodesk\3dsMax\3dsmax-version\ENU\scripts\startup\```. Edit the ```user``` and ```3dsmax-version``` parts in the ```startup.ms``` file to match your username and 3dsMax version (example: 2024 - 64bit).
 
 - Houdini: Copy the ```456.py``` file inside the houdini folder to the path: ```C:\Users\user\Documents\houdini-version\scripts\```. If the ```scripts``` folder does not exist, create it.
 
